@@ -1,5 +1,5 @@
 # phoenix
-Vue-Express Boilerplate
+Vue Enterprise Boilerplate
 
 ## Project setup
 ```
