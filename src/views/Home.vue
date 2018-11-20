@@ -9,7 +9,7 @@ export default {
   components: {
     HelloWorld
   },
-  metaInfo: {
+  head: {
     title: 'Home'
   }
 }

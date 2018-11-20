@@ -6,8 +6,9 @@ import About from '@/views/About.vue'
 
 Vue.use(Router)
 Vue.use(VueMeta, {
-  keyName: 'metaInfo' // the component option name that vue-meta looks for meta info on.
+  keyName: 'head' // the component option name that vue-meta looks for meta info on.
 })
+
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
