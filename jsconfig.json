@@ -1,0 +1,101 @@
+{
+  "baseUrl": ".",
+  "include": ["src/**/*", "tests/**/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "module": "es6",
+    "paths": {
+      "@/*": ["./*"],
+      "@": [
+        "./index.js",
+        "./index.json",
+        "./index.vue",
+        "./index.scss",
+        "./index.css"
+      ],
+      "@src/*": ["src/*"],
+      "@src": [
+        "src/index.js",
+        "src/index.json",
+        "src/index.vue",
+        "src/index.scss",
+        "src/index.css"
+      ],
+      "@router/*": ["src/router/*"],
+      "@router": [
+        "src/router/index.js",
+        "src/router/index.json",
+        "src/router/index.vue",
+        "src/router/index.scss",
+        "src/router/index.css"
+      ],
+      "@views/*": ["src/views/*"],
+      "@views": [
+        "src/views/index.js",
+        "src/views/index.json",
+        "src/views/index.vue",
+        "src/views/index.scss",
+        "src/views/index.css"
+      ],
+      "@stores/*": ["src/stores/*"],
+      "@stores": [
+        "src/stores/index.js",
+        "src/stores/index.json",
+        "src/stores/index.vue",
+        "src/stores/index.scss",
+        "src/stores/index.css"
+      ],
+      "@components/*": ["src/components/*"],
+      "@components": [
+        "src/components/index.js",
+        "src/components/index.json",
+        "src/components/index.vue",
+        "src/components/index.scss",
+        "src/components/index.css"
+      ],
+      "@assets/*": ["src/assets/*"],
+      "@assets": [
+        "src/assets/index.js",
+        "src/assets/index.json",
+        "src/assets/index.vue",
+        "src/assets/index.scss",
+        "src/assets/index.css"
+      ],
+      "@utils/*": ["src/utils/*"],
+      "@utils": [
+        "src/utils/index.js",
+        "src/utils/index.json",
+        "src/utils/index.vue",
+        "src/utils/index.scss",
+        "src/utils/index.css"
+      ],
+      "@directives/*": ["src/directives/*"],
+      "@directives": [
+        "src/directives/index.js",
+        "src/directives/index.json",
+        "src/directives/index.vue",
+        "src/directives/index.scss",
+        "src/directives/index.css"
+      ],
+      "@filters/*": ["src/filters/*"],
+      "@filters": [
+        "src/filters/index.js",
+        "src/filters/index.json",
+        "src/filters/index.vue",
+        "src/filters/index.scss",
+        "src/filters/index.css"
+      ],
+      "@mixins/*": ["src/mixins/*"],
+      "@mixins": [
+        "src/mixins/index.js",
+        "src/mixins/index.json",
+        "src/mixins/index.vue",
+        "src/mixins/index.scss",
+        "src/mixins/index.css"
+      ],
+      "@styles/*": ["src/styles/index.scss/*"],
+      "@styles": ["src/styles/index.scss"]
+    }
+  }
+}
